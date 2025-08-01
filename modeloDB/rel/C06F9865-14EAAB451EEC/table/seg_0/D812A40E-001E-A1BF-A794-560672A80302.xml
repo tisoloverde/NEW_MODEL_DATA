@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D812A40E-001E-A1BF-A794-560672A80302" name="GEN_PROVINCIA">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-05-02 06:58:15 UTC</createdTime>
+<generatorID>83C5F3C9-4657-87D1-5669-D8A6D7DEC721</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GENPRO_ID" id="0A81A660-EE0C-D53F-9F22-579B51F6489D">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-05-02 06:58:15 UTC</createdTime>
+<generatorID>058832D8-1573-101D-90B7-68117FD60D26</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENPRO_CODIGO" id="B95F4641-B61A-18CF-3429-6A5A98A03B0B">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-05-02 06:58:15 UTC</createdTime>
+<generatorID>8320031A-61EF-7A6C-B93A-E50D7701B115</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENPRO_DESCRIPCION" id="BB87DC58-5AE6-D2A0-AE69-9978E0FFA23A">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-05-02 06:58:15 UTC</createdTime>
+<generatorID>068A6D90-0D15-9230-D64C-E4D06CF79A20</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENREG_ID" id="15E073B2-5F39-79DA-593C-CEDC92307493">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-05-02 06:58:15 UTC</createdTime>
+<generatorID>2295CD30-E56C-3C3F-4358-43E23CEC7484</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC3C31A0-D57B-7081-0B8E-23C46C5FE107" referredColumn="3C5A61AC-FE5B-6FAF-45D2-6836DCFC4F03"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC1B90DA-94F7-E7B9-9689-51012B529A16" name="GEN_PROVINCIA_PK">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-05-02 06:58:15 UTC</createdTime>
+<generatorID>0A20C7DE-5020-06A7-7624-5197127C5148</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A81A660-EE0C-D53F-9F22-579B51F6489D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32A8A67A-6DA7-8165-F265-245473AFEDD6" name="Relation_28">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-05-02 06:58:15 UTC</createdTime>
+<generatorID>3937BE9E-5588-A206-04D8-69FD564384BD</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15E073B2-5F39-79DA-593C-CEDC92307493"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="E2750A6D-9B40-655F-2B13-F81D1F606C9B" mainViewID="DCB17C05-191D-1E6D-86EE-3E072317C080">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-21 21:21:58 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

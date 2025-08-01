@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="37B077A8-2827-081C-B716-7DB612ACA4A4" name="EQ_EMPRESA_REX">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-23 09:59:29 UTC</createdTime>
+<generatorID>D5A2D656-31A3-DE94-7ED6-78335F783965</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GENEMP_ID" id="03DDCAD3-8F6A-E13C-C4D9-F6099D65585F">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-23 09:59:29 UTC</createdTime>
+<generatorID>889A9588-C9AA-CA13-7F6B-2A799208AE68</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENEMP_REX_EMPRESA" id="498FDA3E-D387-0818-7BDF-A3E3684FF0FA">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-23 09:59:29 UTC</createdTime>
+<generatorID>2A50A633-7F07-D20A-7B56-350172F0FB92</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

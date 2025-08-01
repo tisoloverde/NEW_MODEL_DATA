@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A68DA325-1862-FE74-065B-756BC26D61FA" name="GEN_AREA">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-21 22:33:13 UTC</createdTime>
+<generatorID>988CAFE9-4B82-6DDC-AE42-C7645944B2A4</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GENARA_ID" id="6C684E7F-79DD-9A35-329E-D09B8AA4E88A">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-21 22:33:13 UTC</createdTime>
+<generatorID>F6662722-C202-018F-9D69-F1F80320C515</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENARA_DESCRIPCION" id="4480CCB4-4445-0AB6-1ED2-BD933EBB0342">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-21 22:33:13 UTC</createdTime>
+<generatorID>8EABAB4D-C48C-1399-ED06-716FCC5D930B</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENARA_FECHA_CREACION" id="5B651188-2FE1-A7A3-C760-9A5A25732DFF">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-21 22:33:13 UTC</createdTime>
+<generatorID>29C05839-D251-57F3-2C2F-56FD44A5AC76</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENARA_FECHA_MODIFICACION" id="FABB563C-08C9-FACA-0C45-EA802BB853A7">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-21 22:33:13 UTC</createdTime>
+<generatorID>D4E40764-F7A9-3515-665F-7A47FDE2F7AA</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5C86BB9D-0962-D4AD-81DC-38659DD2A309" name="GEN_AREA_PK">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-21 22:33:13 UTC</createdTime>
+<generatorID>F08EC82A-0CC6-99B1-B078-0609B0C5C7BC</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C684E7F-79DD-9A35-329E-D09B8AA4E88A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

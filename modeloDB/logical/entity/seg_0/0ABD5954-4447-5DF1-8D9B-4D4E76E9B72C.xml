@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0ABD5954-4447-5DF1-8D9B-4D4E76E9B72C" name="EQ_CENTRO_COSTO_REX">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-05-01 12:10:44 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="GENCENCOS_ID" id="0B6AFA32-D5C9-A104-CC55-0E8B85063F7C">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-05-01 12:10:57 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENCENCOS_REX_ID" id="59F3A582-75F0-D991-3DA2-3DACC935B6BD">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-05-01 12:11:19 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENCENCOS_REX_ITEM" id="BE8D742E-3F37-FB0A-0282-F9693CEA86E8">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-05-02 00:20:43 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

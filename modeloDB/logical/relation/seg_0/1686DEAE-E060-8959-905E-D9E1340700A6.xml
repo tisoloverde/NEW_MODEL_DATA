@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_5" directorySegmentName="seg_0" id="1686DEAE-E060-8959-905E-D9E1340700A6">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-21 21:51:05 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<sourcePk>8D8F3C71-9F8E-112B-9034-38C3F75654A3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>23DEE2C2-0AC6-1743-D5BB-4F6B21CDD45D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E6631FBD-F976-B164-12A6-BEC850EEB42C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

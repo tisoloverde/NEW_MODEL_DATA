@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="278B5A5F-B9AE-80D4-781A-E32DEEA947B6" name="RH_CARGO_LIQUIDACION">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-06-10 06:24:11 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RHCARLIQ_ID" id="74E17B73-7C66-61C1-25FA-C4B757FAACF2">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-06-10 06:24:21 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RHCARLIQ_DESCRIPCION" id="952522EB-6A94-4B4B-7332-48B1C1DC535B">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-06-10 06:24:38 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RHCARLIQ_VIGENCIA" id="8DC36ECE-C810-E353-936F-1BD1D0CC4E87">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-06-10 06:25:01 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="76B184D9-6185-E407-D88F-D4A02064CFE6" name="RH_CARGO_LIQUIDACION PK">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-06-10 06:24:36 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>74E17B73-7C66-61C1-25FA-C4B757FAACF2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

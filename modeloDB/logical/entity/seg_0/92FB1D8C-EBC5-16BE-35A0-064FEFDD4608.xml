@@ -1,0 +1,264 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="92FB1D8C-EBC5-16BE-35A0-064FEFDD4608" name="GEN_CENTRO_COSTO">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-21 22:18:41 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="false"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="GENCENCOS_ID" id="8CE1AC9C-4EB7-AE82-F256-854914F13365">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-21 22:18:51 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENCENCOS_CODIGO" id="27394828-0145-F897-3105-BA031C1B54EB">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-30 03:02:13 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENCENCOS_DESCRIPCION" id="093B5D67-004B-43FE-F4B6-61332E202BEF">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-21 22:19:52 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENCENCOS_ESTADO" id="849E2FCD-5E6B-AC8A-ACD4-179AD7AB3C4F">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-21 22:21:37 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENCENCOS_FECHA_INICIO_CONTRATO" id="2201B7C8-CD16-C06A-449D-8E1FA3548FF2">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-21 22:23:39 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENCENCOS_FECHA_TERMINO_CONTRATO" id="1E7B559E-C6ED-95AD-5D95-D85B7B824CBA">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-21 22:23:53 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENCENCOS_FECHA_INICIO_OPERACION" id="54B14200-822A-AA52-241C-5B8A92202A01">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-21 22:24:22 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENCENCOS_FECHA_TERMINO_OPERACION" id="6177F29F-D53D-BB0D-B9AE-8E565C3497B8">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-21 22:24:36 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENCENCOS_DOTACION" id="AAB1853A-28B2-B7E3-940D-E36AF6D987B2">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-21 22:26:00 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENEMP_ID" id="73113DBA-F3A2-8CAC-D83B-DC63EC10E6BB">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-21 22:27:01 UTC</createdTime>
+<generatorID>08C25E84-C856-6FD9-4307-0B497633DD84</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<referedAttribute>E750502E-055F-BFDF-404F-74DB6DFD91BD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENCLI_ID" id="03210A38-2E63-733E-0236-36E5FD304CAB">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-21 22:30:45 UTC</createdTime>
+<generatorID>24AD9909-3008-0B0A-DDFE-16F082935B91</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<referedAttribute>4B8F549C-4393-AE4E-D5BB-BCFB3BBD0B20</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENCENCOS_FECHA_CREACION" id="01D9EA99-F3AE-32F0-5EA7-D973C47D43D7">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-30 07:46:14 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ACCUSU_ID_CREACION" id="EF3C81E3-ABD1-AA58-2511-999A6B8DF99E">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-30 07:44:10 UTC</createdTime>
+<generatorID>37A777F3-6299-DD0B-106A-F36796B10DC7</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<referedAttribute>7EC537F0-32A8-BC7F-4F5A-E46E027F15CD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENCENCOS_FECHA_MODIFICACION" id="E012A3D8-A7A8-CE29-298D-E113212FD4C0">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-30 07:46:39 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ACCUSU_ID_MODIFICA" id="8727D764-9729-CEB4-14E0-6569472EA35D">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-30 07:45:39 UTC</createdTime>
+<generatorID>BCBAF7B0-EAEC-4198-057B-2AB026AFD8B0</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<referedAttribute>7EC537F0-32A8-BC7F-4F5A-E46E027F15CD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENCENCOS_OBSERVACION" id="DF9AAB0B-5EC1-259F-13B6-E035D217E4A7">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-30 07:47:38 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F70DAA2E-73EC-0616-E0BB-21B6FAD54B62" name="GEN_CENTRO_COSTO PK">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-21 22:19:11 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8CE1AC9C-4EB7-AE82-F256-854914F13365</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

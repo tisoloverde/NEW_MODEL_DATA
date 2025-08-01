@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="83C5F3C9-4657-87D1-5669-D8A6D7DEC721" name="GEN_PROVINCIA">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-04-29 06:47:22 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="GENPRO_ID" id="058832D8-1573-101D-90B7-68117FD60D26">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-04-29 06:47:38 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENPRO_CODIGO" id="8320031A-61EF-7A6C-B93A-E50D7701B115">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-04-29 06:48:07 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENPRO_DESCRIPCION" id="068A6D90-0D15-9230-D64C-E4D06CF79A20">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-04-29 06:48:27 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENREG_ID" id="2295CD30-E56C-3C3F-4358-43E23CEC7484">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-04-29 06:49:05 UTC</createdTime>
+<generatorID>3937BE9E-5588-A206-04D8-69FD564384BD</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<referedAttribute>BAD486C1-D8DF-1DF5-30F7-04989C0ABA41</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0A20C7DE-5020-06A7-7624-5197127C5148" name="GEN_PROVINCIA PK">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-04-29 06:48:05 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>058832D8-1573-101D-90B7-68117FD60D26</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

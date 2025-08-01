@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5EE4D9A1-F234-E869-6714-3EC3847B594C" name="RH_CARGO_LIQUIDACION">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-06-16 23:44:44 UTC</createdTime>
+<generatorID>278B5A5F-B9AE-80D4-781A-E32DEEA947B6</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RHCARLIQ_ID" id="E96B0CEF-C032-9018-29C9-20F7BBA4B2A9">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-06-16 23:44:44 UTC</createdTime>
+<generatorID>74E17B73-7C66-61C1-25FA-C4B757FAACF2</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RHCARLIQ_DESCRIPCION" id="A1B6105D-5D74-F6E7-443B-54A0E732CED2">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-06-16 23:44:44 UTC</createdTime>
+<generatorID>952522EB-6A94-4B4B-7332-48B1C1DC535B</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RHCARLIQ_VIGENCIA" id="3DB57BDC-502C-1194-A886-404AE5F2A7DF">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-06-16 23:44:44 UTC</createdTime>
+<generatorID>8DC36ECE-C810-E353-936F-1BD1D0CC4E87</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C906EFC-AEE1-16CA-4250-D0F4DAA4C70A" name="RH_CARGO_LIQUIDACION_PK">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-06-16 23:44:44 UTC</createdTime>
+<generatorID>76B184D9-6185-E407-D88F-D4A02064CFE6</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E96B0CEF-C032-9018-29C9-20F7BBA4B2A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

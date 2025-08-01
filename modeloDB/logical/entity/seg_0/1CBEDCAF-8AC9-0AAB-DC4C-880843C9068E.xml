@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1CBEDCAF-8AC9-0AAB-DC4C-880843C9068E" name="RH_SISTEMA_PENSION">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-04-29 23:50:47 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RHSISPEN_ID" id="A0BAEACA-8062-478F-FB00-881B84A9CFC2">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-04-29 23:50:59 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RHSISPEN_DESCRIPCION" id="E071BEB2-CBA0-834F-CAFC-661231328641">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-04-29 23:51:13 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RHSISPEN_VIGENCIA" id="EA680486-8236-9077-B288-9EFE7AB4B056">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-05-01 12:04:38 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BB1FCC16-66B8-A6B9-6F2F-75DB83B2BCD9" name="RH_SISTEMA_PENSION PK">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-04-29 23:51:11 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A0BAEACA-8062-478F-FB00-881B84A9CFC2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

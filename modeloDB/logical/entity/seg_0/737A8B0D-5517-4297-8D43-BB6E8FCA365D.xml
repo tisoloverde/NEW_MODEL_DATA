@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="737A8B0D-5517-4297-8D43-BB6E8FCA365D" name="RH_VINCULO_CONTACTO">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-05-10 01:41:17 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RHVINCON_ID" id="37545599-2B5C-BA75-72E3-40BED3FCE3F1">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-05-10 01:41:27 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RHVINCON_DESCRIPCION" id="A8C6C0AA-9ED9-9ED1-C1DB-C166CDD00DC9">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-05-10 01:42:00 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RHVINCON_VIGENCIA" id="A4AF06A3-3307-8256-E3EE-0334FEA9A6E6">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-05-10 01:42:16 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7BF0ED19-4B67-1EDC-E64B-25F08686BD23" name="RH_VINCULO_CONTACTO PK">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-05-10 01:41:48 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>37545599-2B5C-BA75-72E3-40BED3FCE3F1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

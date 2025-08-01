@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71BE7E10-9C7E-E941-4F66-DCDE2E69E1B7" name="ACCOUNT_PERFIL_MENU_OPCION">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-21 22:33:13 UTC</createdTime>
+<generatorID>ED1A760D-D953-FA3D-C1C1-2817E1AA89A0</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ACCMENOPC_ID" id="7F171975-3499-2001-68EB-C5DC13560CFD">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-21 22:33:13 UTC</createdTime>
+<generatorID>0D496C02-CE49-0138-6859-4A37F0E89CC3</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC14F524-E0B9-2324-20F4-982F6B5EEB65" referredColumn="E206962A-288F-C6AB-5EB9-B4B6FDA9E33E"/>
+</associations>
+</Column>
+<Column name="ACCPER_ID" id="83F71980-270F-462C-B534-A2A398B6B6AA">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-21 22:33:13 UTC</createdTime>
+<generatorID>77D47AC6-01A1-D87F-02D7-C7C4C6E879C3</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97251C06-9F6D-E11F-9310-4BA79494DE28" referredColumn="08F68408-0D99-71CA-5961-809B8F259897"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08E6AEA4-8EE0-C92C-5CBC-B74A496F663E" name="ACCOUNT_PERFIL_MENU_OPCION_PK">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-21 22:33:13 UTC</createdTime>
+<generatorID>7DC6874D-B9ED-4208-E999-0865D0B4920D</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="253FD04A-69C8-66CA-2F8D-1BA092F2FD94" name="Relation_11">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-21 22:33:13 UTC</createdTime>
+<generatorID>06D13F6F-1599-1328-CA16-239760F0D81B</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83F71980-270F-462C-B534-A2A398B6B6AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FCE3356-FDBB-2F67-0E7F-F842507E9901" name="Relation_6">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-21 22:33:13 UTC</createdTime>
+<generatorID>49781E7E-6A20-AE59-17F1-B34A45DD31E6</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F171975-3499-2001-68EB-C5DC13560CFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

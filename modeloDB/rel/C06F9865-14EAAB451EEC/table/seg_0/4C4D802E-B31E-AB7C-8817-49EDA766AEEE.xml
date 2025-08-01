@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4C4D802E-B31E-AB7C-8817-49EDA766AEEE" name="RH_VINCULO_CONTACTO">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-05-10 11:28:50 UTC</createdTime>
+<generatorID>737A8B0D-5517-4297-8D43-BB6E8FCA365D</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RHVINCON_ID" id="4FE7FDA3-3FC6-B3F4-546F-E4D75A5385A3">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-05-10 11:28:50 UTC</createdTime>
+<generatorID>37545599-2B5C-BA75-72E3-40BED3FCE3F1</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RHVINCON_DESCRIPCION" id="945FCAD4-7A6D-FF6C-B731-6DFEF312B9E9">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-05-10 11:28:50 UTC</createdTime>
+<generatorID>A8C6C0AA-9ED9-9ED1-C1DB-C166CDD00DC9</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RHVINCON_VIGENCIA" id="1FC8B499-3885-3E73-6305-52422D6667D2">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-05-10 11:28:50 UTC</createdTime>
+<generatorID>A4AF06A3-3307-8256-E3EE-0334FEA9A6E6</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0973AD6A-3F16-318B-07C5-E97444BD1069" name="RH_VINCULO_CONTACTO_PK">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-05-10 11:28:50 UTC</createdTime>
+<generatorID>7BF0ED19-4B67-1EDC-E64B-25F08686BD23</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FE7FDA3-3FC6-B3F4-546F-E4D75A5385A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7922986B-B17F-69D9-8C9D-3D73795EBD77" name="RH_REFERENCIA_1">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-11 05:32:04 UTC</createdTime>
+<generatorID>D940C94A-FD7D-D913-F413-AA9DB01A5D7C</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RHREF1_ID" id="B1DA9E19-8AEB-1CC1-E654-3A619031504F">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-11 05:32:04 UTC</createdTime>
+<generatorID>04F3CAC9-737D-C54F-F3EE-005682DD2890</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RHREF1_CODIGO" id="32DB299C-EAE3-F1E3-81D5-2B84016D8EEE">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-11 06:17:36 UTC</createdTime>
+<generatorID>FC495A2B-46F5-C49E-D15F-8FC634277D53</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RHREF1_DESCRIPCION" id="A2275BCB-B74E-0461-4BD6-5A936EC7075B">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-11 05:32:04 UTC</createdTime>
+<generatorID>BA3EC03A-31FD-547E-F19C-6F85FB427EC3</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RHREF1_VIGENCIA" id="727C8901-99C4-F2D1-CFE4-07821222EF39">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-11 05:32:04 UTC</createdTime>
+<generatorID>50078B75-DD43-F736-7577-87045981B25F</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6AFBAE68-E5BF-33A2-06C9-7C390B49C370" name="RH_REFERENCIA_1_PK">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-11 05:32:04 UTC</createdTime>
+<generatorID>140C2C92-8A81-EB9E-3B90-EA539721A841</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1DA9E19-8AEB-1CC1-E654-3A619031504F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

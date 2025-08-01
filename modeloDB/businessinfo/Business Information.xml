@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="483D18FF-3E08-9E97-0C94-C3B6FEF87996">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-21 21:21:58 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB18924A-7F58-7E69-1000-06A7B0B4EBAE" name="RH_TIPO_FINIQUITO">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-23 09:59:29 UTC</createdTime>
+<generatorID>A4F1D228-C430-270B-6014-E4C5FCC1A5A4</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RHTIPFIN_ID" id="CCE4B4A3-97E9-8558-C3CC-EA3CDBD56C8C">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-23 09:59:29 UTC</createdTime>
+<generatorID>886472A4-C966-C435-AB94-FF3FF46E25FC</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RHTIPFIN_DESCRIPCION" id="B09B5E38-0159-45D7-6D96-3F5A5E67F7C5">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-23 09:59:29 UTC</createdTime>
+<generatorID>D4BE0FB9-8A69-A2A1-E0CB-52D9A9E41F1E</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RHTIPFIN_VIGENCIA" id="25161B07-C9D0-316F-6677-D4573751CF26">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-23 09:59:29 UTC</createdTime>
+<generatorID>B0C49A10-A297-DF57-78D4-618398A86A49</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96B47166-1D19-5ADC-E84A-38261960E0E8" name="RH_TIPO_FINIQUITO_PK">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-23 09:59:29 UTC</createdTime>
+<generatorID>3549CD26-E8AF-0262-5AED-866A538C45AD</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCE4B4A3-97E9-8558-C3CC-EA3CDBD56C8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

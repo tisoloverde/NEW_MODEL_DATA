@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28ACC917-0881-38BA-6028-1EA448BFD748" name="RH_CONTRATO">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-23 09:59:29 UTC</createdTime>
+<generatorID>5FB42DAD-755B-A2D4-1CBD-63B01095468F</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RHCON_ID" id="AE7494EE-5F45-D4F8-5EED-0A802750AE6F">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-23 09:59:29 UTC</createdTime>
+<generatorID>CE26B376-889D-FC2E-8CF5-4F61647A0C2E</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RHCON_FECHA_INICIO" id="0B5FD3F3-2CED-92D4-523E-4C9D2F04D875">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-23 09:59:29 UTC</createdTime>
+<generatorID>4D745C26-5A40-A1F3-228E-1232AA119815</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RHCON_FECHA_TERMINO" id="EC88CBC6-43AC-62D2-2B96-7FAF14E53E68">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-23 09:59:29 UTC</createdTime>
+<generatorID>B1A36830-C99A-BB44-0D27-A180A619D930</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RHCON_CONTRATO" id="3D1EDEDA-AB43-88EE-E3B0-D0920CB3D563">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-23 09:59:29 UTC</createdTime>
+<generatorID>DB80EA34-2971-8F8D-0AE8-7613AE968003</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENCENCOS_ID" id="4A3A513A-A6C1-6E89-6C2D-EBEF15016BBF">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-23 09:59:29 UTC</createdTime>
+<generatorID>5B38D463-F4AB-4EF5-7375-A360BD15DB5A</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42304834-7924-E889-F3A9-F72A62D79BD1" referredColumn="A20A78F3-0F3E-A0D0-96E1-B6A93C7432C1"/>
+</associations>
+</Column>
+<Column name="RHCARLIQ_ID" id="0A1DFBCB-8626-091D-72F2-9D9F369AA598">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-23 09:59:29 UTC</createdTime>
+<generatorID>D0EC34D6-5727-8C79-CE6E-8DB063C5A642</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F054159-D55B-D5C1-A18F-9938ADBD9313" referredColumn="E96B0CEF-C032-9018-29C9-20F7BBA4B2A9"/>
+</associations>
+</Column>
+<Column name="RHTIPFIN_ID" id="8264F728-1946-6838-B44B-3A0280E4BF75">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-23 09:59:29 UTC</createdTime>
+<generatorID>C964CFD0-38E9-C963-1911-7040D7202BEE</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC958FFB-679A-E759-59ED-533DE1E7F62B" referredColumn="CCE4B4A3-97E9-8558-C3CC-EA3CDBD56C8C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77FBD840-F20D-4717-374A-D0F812BB6054" name="RH_CONTRATO_PK">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-23 09:59:29 UTC</createdTime>
+<generatorID>21BB6E87-AB19-3AC1-B2BF-B5C6CCCFE17E</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE7494EE-5F45-D4F8-5EED-0A802750AE6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8479E844-90D7-750D-F5AC-745C591823A7" name="Relation_60">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-23 09:59:29 UTC</createdTime>
+<generatorID>BAD420A1-277A-7FD5-716A-8F4B795D17E9</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A3A513A-A6C1-6E89-6C2D-EBEF15016BBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D452C95-4996-DB12-7FFB-FD773BD42895" name="Relation_61">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-23 09:59:29 UTC</createdTime>
+<generatorID>3E5CDB08-6940-2148-FDA4-46D8C3BC5B6C</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A1DFBCB-8626-091D-72F2-9D9F369AA598"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D8D815C-59AF-BCED-6B31-E4E9FF13E64F" name="Relation_62">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-23 09:59:29 UTC</createdTime>
+<generatorID>732E079E-25BE-48D4-63D4-A07974FAF890</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8264F728-1946-6838-B44B-3A0280E4BF75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

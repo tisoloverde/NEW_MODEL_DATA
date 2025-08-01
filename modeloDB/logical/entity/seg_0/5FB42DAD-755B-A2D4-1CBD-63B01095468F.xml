@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5FB42DAD-755B-A2D4-1CBD-63B01095468F" name="RH_CONTRATO">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-23 06:24:29 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RHCON_ID" id="CE26B376-889D-FC2E-8CF5-4F61647A0C2E">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-23 06:24:47 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RHCON_FECHA_INICIO" id="4D745C26-5A40-A1F3-228E-1232AA119815">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-23 06:26:32 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RHCON_FECHA_TERMINO" id="B1A36830-C99A-BB44-0D27-A180A619D930">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-23 06:27:00 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RHCON_CONTRATO" id="DB80EA34-2971-8F8D-0AE8-7613AE968003">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-23 06:31:26 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENCENCOS_ID" id="5B38D463-F4AB-4EF5-7375-A360BD15DB5A">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-23 06:36:35 UTC</createdTime>
+<generatorID>BAD420A1-277A-7FD5-716A-8F4B795D17E9</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<referedAttribute>8CE1AC9C-4EB7-AE82-F256-854914F13365</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RHCARLIQ_ID" id="D0EC34D6-5727-8C79-CE6E-8DB063C5A642">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-23 06:37:15 UTC</createdTime>
+<generatorID>3E5CDB08-6940-2148-FDA4-46D8C3BC5B6C</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<referedAttribute>74E17B73-7C66-61C1-25FA-C4B757FAACF2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RHTIPFIN_ID" id="C964CFD0-38E9-C963-1911-7040D7202BEE">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-23 06:53:58 UTC</createdTime>
+<generatorID>732E079E-25BE-48D4-63D4-A07974FAF890</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<referedAttribute>886472A4-C966-C435-AB94-FF3FF46E25FC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="21BB6E87-AB19-3AC1-B2BF-B5C6CCCFE17E" name="RH_CONTRATO PK">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-23 06:25:01 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CE26B376-889D-FC2E-8CF5-4F61647A0C2E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

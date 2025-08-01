@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="44DCBC22-EAE0-B5B5-DBF4-9106072F4952" name="RH_CARGO_GENERICO">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-11 04:57:16 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RHCARGEN_ID" id="661AFE1A-AD33-4A87-57CA-1C2F7F71A8A7">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-11 04:57:32 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RHCARGEN_DESCRIPCION" id="BCE286E5-703A-6DBC-BF79-07EA7F4BD558">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-11 04:58:36 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RHFAM_ID" id="BC59D61D-11D2-B1F6-A604-97E564D1E10F">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-11 05:01:47 UTC</createdTime>
+<generatorID>EF99C7DD-36EF-CCE6-05AB-77176EDAE11C</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<referedAttribute>47BEB36C-458C-7CDF-06E4-34C17F30EF96</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RHCLA_ID" id="B2DEAE94-F63D-046D-955D-9EDC1B4A3530">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-11 05:02:15 UTC</createdTime>
+<generatorID>A9D14621-CE7D-25F2-FCA0-717CD1062A80</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<referedAttribute>6D2231E8-AFEF-82B7-6298-4CE6AE4F4DA6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="68AD0A1E-4E53-8788-7ADD-F7C0456C4438" name="RH_CARGO_GENERICO PK">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-07-11 04:57:58 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>661AFE1A-AD33-4A87-57CA-1C2F7F71A8A7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

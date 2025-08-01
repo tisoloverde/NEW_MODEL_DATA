@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modeloDB" id="31B104DB-125E-C86F-3897-427C80FBC018" version="3.5">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-21 21:21:58 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>31B104DB-125E-C86F-3897-427C80FBC018</designId>
+</OSDM_Design>

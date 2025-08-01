@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3CDFE7A9-ABA3-4682-43F1-F4F65B693708" name="ACCOUNT_USUARIO_PERFIL">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-21 22:09:37 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="false"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ACCUSU_ID" id="4FD05D74-914B-B6D7-44A7-725A5984A453">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-21 23:01:11 UTC</createdTime>
+<generatorID>61221451-81F0-F386-27CF-D6E3E0CC33AD</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<referedAttribute>7EC537F0-32A8-BC7F-4F5A-E46E027F15CD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ACCPER_ID" id="F9AE40B7-EE0E-881F-9421-3BE152D0E181">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-03-21 23:01:53 UTC</createdTime>
+<generatorID>A8A4DDEB-F723-CBCA-0C98-406DFD604802</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<referedAttribute>D0688181-90BA-C6A3-041F-49EDAAEFF93C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
