@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8DCDE79E-0B32-E4FF-0FA3-8F5DD869A688" name="EQ_CLASIFICACION_REX">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-06 07:24:05 UTC</createdTime>
+<generatorID>E0ADA00E-FE7B-D4C2-AC5E-A9DD322956D5</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RHCLA_ID" id="F63B98AC-5C66-6D2E-4D94-A12CF662D24B">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-06 07:24:05 UTC</createdTime>
+<generatorID>562CF84B-D9ED-BBDD-183C-7D9F66B82C48</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RHCLA_REX_CLASIFICACION" id="CDE0091F-64D4-0F55-6DD0-A297C127AEDE">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-06 07:24:05 UTC</createdTime>
+<generatorID>2DA32BF7-60CB-1D7C-3EED-7DB54E9BBB5B</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

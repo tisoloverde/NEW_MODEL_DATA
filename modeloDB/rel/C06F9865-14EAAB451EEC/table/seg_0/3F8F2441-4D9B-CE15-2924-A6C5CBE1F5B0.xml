@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F8F2441-4D9B-CE15-2924-A6C5CBE1F5B0" name="EQ_CARGO_REX">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F8F2441-4D9B-CE15-2924-A6C5CBE1F5B0" name="EQ_CARGO_LIQUIDACION_REX">
 <createdBy>Windows 10 Pro</createdBy>
 <createdTime>2025-06-16 23:44:44 UTC</createdTime>
 <generatorID>18B7875F-2837-A5BB-6025-29FB879453CC</generatorID>
 <ownerDesignName>modeloDB</ownerDesignName>
+<ordsAlias>eq_cargo__liquidacion_rex</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>

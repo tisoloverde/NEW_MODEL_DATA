@@ -18,6 +18,8 @@
 <logicalDatatype>LOGDT026</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="RHCARGEN_DESCRIPCION" id="D3F0DC2E-8E82-F899-C21E-78EE5A884FD7">
@@ -41,7 +43,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -57,12 +59,35 @@
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="4ED31645-161E-6463-D24B-FCF11A92DBFF" referredColumn="4DFC9B9B-3F7E-E285-F4BB-206CC3412ABA"/>
 </associations>
+</Column>
+<Column name="RHCARGEN_VIGENCIA" id="7E446B31-75EC-0F11-3A4D-AA559C3F58BB">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-07 06:09:33 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RHCARGEN_VIGENCIA2" id="C097137D-662D-DDBE-7234-B880F41376DF">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-11 23:41:48 UTC</createdTime>
+<generatorID>F2C04B26-11DD-4FC8-A851-C9D417CB590C</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

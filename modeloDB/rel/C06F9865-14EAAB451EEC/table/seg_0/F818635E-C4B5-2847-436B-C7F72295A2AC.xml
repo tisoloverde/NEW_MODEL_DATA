@@ -18,6 +18,8 @@
 <logicalDatatype>LOGDT026</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="RHREF2_CODIGO" id="CE85B724-315F-C5F6-3C4F-8DBE387CA987">

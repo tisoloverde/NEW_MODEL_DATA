@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B634292E-1002-FDF9-6DFF-D87C13AA61CD" name="RH_ASISTENCIA_CONCEPTO">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-03 06:28:08 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RHASICON_ID" id="1B899921-E14E-0D6D-4A7B-37B9D0AE1543">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-03 06:28:21 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RHASICON_SIGLA" id="DCD63A7B-6CE5-6766-178A-F544BFFFE5CF">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-03 06:29:02 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RHASICON_DESCRIPCION" id="EE33CC65-F679-B168-A7C9-3D5E8F4C145C">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-03 06:29:38 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RHASICON_DESCUENTO" id="13D950E9-D782-5399-0591-91657445C8ED">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-03 06:50:34 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RHASICON_VISIBLE" id="A938363B-DFDC-1350-0B77-BED869030D9F">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-03 06:54:13 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RHASICON_PAGADO_NOPAGADO" id="D15BB003-BBE1-FEE5-89B3-946159D8772A">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-12 00:04:18 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RHASIMAR_ID" id="4039AD58-9A0E-7DD5-D275-0EDEC64CE044">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-12 01:07:51 UTC</createdTime>
+<generatorID>490EBE9D-01C0-D1E8-64A6-8FEE8ED1FC29</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<referedAttribute>3C4B1C80-9632-92E1-6B50-20B0645667B5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RHASiTIPMAR" id="80E9E9F4-6472-7C76-071D-1A4A758E28FB">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-12 01:07:57 UTC</createdTime>
+<generatorID>AC7B28E9-4A14-A367-E0C1-341173604249</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<referedAttribute>9CA4E29B-403B-05CE-D3E6-2B3791F8B497</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RHASICLA_ID" id="6CAA6E4A-A84B-069E-ADFA-F9B5357C2B3A">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-12 01:08:03 UTC</createdTime>
+<generatorID>BF37C853-7ED6-91EB-0F5E-1AF8271F0202</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<referedAttribute>6D4460CF-68EF-5875-F2D9-BAC673036209</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A4EADC5E-785D-66CD-2B9E-010994A379C5" name="RH_ASISTENCIA_CONCEPTO PK">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-03 06:28:40 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1B899921-E14E-0D6D-4A7B-37B9D0AE1543</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

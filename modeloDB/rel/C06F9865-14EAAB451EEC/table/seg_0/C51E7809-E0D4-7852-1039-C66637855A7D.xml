@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C51E7809-E0D4-7852-1039-C66637855A7D" name="EQ_REFERENCIA_1_REX">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-06 07:24:05 UTC</createdTime>
+<generatorID>9FAFF0B1-1366-CF6E-0507-25A5947DCD06</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RHREF1_ID" id="6BEF0AB0-55DC-1937-230C-1FB7A32CD69D">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-06 07:24:05 UTC</createdTime>
+<generatorID>CCE257D1-AB80-DA44-69BB-3C7DFFE7B7E4</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RHREF1_REX_ID" id="7278F4BD-0C65-794E-C6BC-8A642F24E1A0">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-06 07:24:05 UTC</createdTime>
+<generatorID>23FB292A-06B1-C72B-A37B-D929BFBF323B</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RHREF1_REX_ITEM" id="F573C9D3-AABD-763E-DE69-C6046DD975CF">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-06 07:24:05 UTC</createdTime>
+<generatorID>6C76C849-ED27-9981-C705-02074D0E9A51</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

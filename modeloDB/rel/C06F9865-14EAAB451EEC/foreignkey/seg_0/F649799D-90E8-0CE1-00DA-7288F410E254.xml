@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F649799D-90E8-0CE1-00DA-7288F410E254" containerWithKeyObject="156B5687-62DF-270D-859C-653D2C665F4F" localFKIndex="199C0DC3-284D-9CD0-691C-FAC379B69B38" name="Relation_78">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-12 01:09:30 UTC</createdTime>
+<generatorID>AC7B28E9-4A14-A367-E0C1-341173604249</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<referredTableLongName>RH_ASISTENCIA_TIPO_MARCA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0437EC6D-5A97-BCB1-F849-84815E6BDF2D</referredTableID>
+<keyObject>05871941-0921-FFF6-62DA-CE5D917CB118</keyObject>
+<referredKeyID>05871941-0921-FFF6-62DA-CE5D917CB118</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>RHASiTIPMAR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

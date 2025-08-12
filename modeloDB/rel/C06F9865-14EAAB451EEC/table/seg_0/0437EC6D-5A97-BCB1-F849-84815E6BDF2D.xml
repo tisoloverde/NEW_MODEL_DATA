@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0437EC6D-5A97-BCB1-F849-84815E6BDF2D" name="RH_ASISTENCIA_TIPO_MARCA">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-12 01:09:30 UTC</createdTime>
+<generatorID>5C6F230E-017A-12F0-556E-94D88BCF7A7D</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RHASiTIPMAR" id="EB563C29-0438-19DE-1652-6159080F7F7D">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-12 01:09:30 UTC</createdTime>
+<generatorID>9CA4E29B-403B-05CE-D3E6-2B3791F8B497</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RHASITIPMAR_DESCRIPCION" id="882B8D77-0DEA-0A23-2A0D-6D24DBD541D0">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-12 01:09:30 UTC</createdTime>
+<generatorID>E8FB56D7-C9C3-7169-67ED-6FB384939B47</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="05871941-0921-FFF6-62DA-CE5D917CB118" name="RH_ASISTENCIA_TIPO_MARCA_PK">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-12 01:09:30 UTC</createdTime>
+<generatorID>654C8287-7239-0C17-D67A-A2F6ED7F3783</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB563C29-0438-19DE-1652-6159080F7F7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

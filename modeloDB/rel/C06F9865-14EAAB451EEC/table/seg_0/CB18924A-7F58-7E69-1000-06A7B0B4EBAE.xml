@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB18924A-7F58-7E69-1000-06A7B0B4EBAE" name="RH_TIPO_FINIQUITO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB18924A-7F58-7E69-1000-06A7B0B4EBAE" name="RH_CAUSAL_TERMINO_CONTRATO">
 <createdBy>Windows 10 Pro</createdBy>
 <createdTime>2025-07-23 09:59:29 UTC</createdTime>
 <generatorID>A4F1D228-C430-270B-6014-E4C5FCC1A5A4</generatorID>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="RHTIPFIN_ID" id="CCE4B4A3-97E9-8558-C3CC-EA3CDBD56C8C">
+<Column name="RHCAUTERCON_ID" id="CCE4B4A3-97E9-8558-C3CC-EA3CDBD56C8C">
 <createdBy>Windows 10 Pro</createdBy>
 <createdTime>2025-07-23 09:59:29 UTC</createdTime>
 <generatorID>886472A4-C966-C435-AB94-FF3FF46E25FC</generatorID>
@@ -18,9 +18,11 @@
 <logicalDatatype>LOGDT026</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="RHTIPFIN_DESCRIPCION" id="B09B5E38-0159-45D7-6D96-3F5A5E67F7C5">
+<Column name="RHCAUTERCON_DESCRIPCION" id="B09B5E38-0159-45D7-6D96-3F5A5E67F7C5">
 <createdBy>Windows 10 Pro</createdBy>
 <createdTime>2025-07-23 09:59:29 UTC</createdTime>
 <generatorID>D4BE0FB9-8A69-A2A1-E0CB-52D9A9E41F1E</generatorID>
@@ -32,7 +34,7 @@
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="RHTIPFIN_VIGENCIA" id="25161B07-C9D0-316F-6677-D4573751CF26">
+<Column name="RHCAUTERCON_VIGENCIA" id="25161B07-C9D0-316F-6677-D4573751CF26">
 <createdBy>Windows 10 Pro</createdBy>
 <createdTime>2025-07-23 09:59:29 UTC</createdTime>
 <generatorID>B0C49A10-A297-DF57-78D4-618398A86A49</generatorID>
@@ -42,6 +44,29 @@
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RHCAUTERCON_CODIGO" id="F86C68E6-AE4A-25A1-5177-C74443A0FE07">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-06 09:55:26 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RHCAUTERCON_CODIGO2" id="C29BEC23-6F0F-2607-3AEB-79E0A41BED89">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-11 23:41:48 UTC</createdTime>
+<generatorID>C3D8A589-3FEB-3505-1053-3AED8C596157</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

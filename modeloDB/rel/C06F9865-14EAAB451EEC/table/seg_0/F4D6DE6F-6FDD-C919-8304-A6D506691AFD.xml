@@ -660,7 +660,7 @@
 <colAssociation fkAssociation="EB1E8966-8438-672A-2C04-98D5D5AE1800" referredColumn="43640175-7BAD-06CC-C811-119398FDD428"/>
 </associations>
 </Column>
-<Column name="RHESTCIV_ID1" id="AB218F15-666F-E1A3-12F9-0AB598E6BC91">
+<Column name="RHESTCIV_ID2" id="AB218F15-666F-E1A3-12F9-0AB598E6BC91">
 <createdBy>Windows 10 Pro</createdBy>
 <createdTime>2025-07-11 05:32:04 UTC</createdTime>
 <generatorID>66548404-69CC-0D85-AA58-E87696B06C26</generatorID>

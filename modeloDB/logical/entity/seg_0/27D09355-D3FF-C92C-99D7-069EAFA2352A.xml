@@ -67,7 +67,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="GENBAN_ID" id="D73A1611-729C-2F07-55C9-D56BF0336D56">
 <createdBy>Windows 10 Pro</createdBy>
@@ -82,7 +82,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="RHCOL_CUENTA_BANCO" id="C8ED1B30-83EE-BE0B-C219-D6911C369A45">
 <createdBy>Windows 10 Pro</createdBy>
@@ -191,7 +191,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="RHCOL_DIRECCION" id="6BD53280-6595-CC5B-98F5-17CCC78FDB5E">
 <createdBy>Windows 10 Pro</createdBy>
@@ -220,7 +220,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="RHCOL_FONO_1" id="A1755E83-4BD5-3A5F-6F61-540FF81378E4">
 <createdBy>Windows 10 Pro</createdBy>
@@ -290,7 +290,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="RHJUB_ID" id="492B189D-7548-29CD-39BA-C7F684B7495C">
 <createdBy>Windows 10 Pro</createdBy>
@@ -305,7 +305,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>3</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="RHEXP_ID" id="BB362DC5-2452-3AA6-7F7C-580595FAB45B">
 <createdBy>Windows 10 Pro</createdBy>
@@ -320,7 +320,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="RHSISPEN_ID" id="7EC0C384-B830-F763-99C4-8887CCDBF1EF">
 <createdBy>Windows 10 Pro</createdBy>
@@ -335,7 +335,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="RHSAL_ID" id="B1291893-1276-169E-FFF0-0CBEBB191249">
 <createdBy>Windows 10 Pro</createdBy>
@@ -350,7 +350,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="RHCOL_TALLA_POLERA" id="DB1432CD-4A62-5B4E-B9FB-C9A72D0FEE0E">
 <createdBy>Windows 10 Pro</createdBy>
@@ -421,7 +421,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="RHCOL_EMAIL_PERSONAL" id="D5800381-9871-4406-1325-9516220582F6">
 <createdBy>Windows 10 Pro</createdBy>
@@ -450,7 +450,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="RHPRO_ID" id="A01FA438-80E6-FB71-9B72-809AEEED0C9E">
 <createdBy>Windows 10 Pro</createdBy>
@@ -465,7 +465,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="RHLICCON_ID" id="B6EF9184-E8A0-46B1-26AE-5BD2D4B898F5">
 <createdBy>Windows 10 Pro</createdBy>
@@ -480,7 +480,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="RHCOL_FECHA_CREACION" id="ADAAA4FA-FD56-ADCB-0D3F-782CE63C5F4C">
 <createdBy>Windows 10 Pro</createdBy>
@@ -564,7 +564,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="RHNIVOCU_ID" id="35A14AA6-42C8-D7E8-A86F-6AEB7720FC94">
 <createdBy>Windows 10 Pro</createdBy>
@@ -579,7 +579,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="RHCOL_TALLA_GUANTE" id="285BFD8B-3535-8134-A98E-721D1471246D">
 <createdBy>Windows 10 Pro</createdBy>
@@ -678,7 +678,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

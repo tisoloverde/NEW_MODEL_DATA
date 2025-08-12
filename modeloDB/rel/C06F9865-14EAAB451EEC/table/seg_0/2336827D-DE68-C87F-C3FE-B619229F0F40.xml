@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E371FC00-A32F-8B81-3C91-3B8504CF7A03" name="RH_TIPO_CONTRATO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2336827D-DE68-C87F-C3FE-B619229F0F40" name="RH_ASISTENCIA_CLASIFICACION">
 <createdBy>Windows 10 Pro</createdBy>
-<createdTime>2025-03-30 07:35:57 UTC</createdTime>
-<generatorID>1A498AAE-CBD1-32E1-1EE5-6DB7418103A1</generatorID>
+<createdTime>2025-08-12 01:09:30 UTC</createdTime>
+<generatorID>218A51D4-0024-A3EE-ACF7-EA127E524000</generatorID>
 <ownerDesignName>modeloDB</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="RHTIPCON_ID" id="D9E9BD79-E122-4727-B001-5D3021FE6E7E">
+<Column name="RHASICLA_ID" id="CDDED43B-3CD6-9D8D-5F9F-96A35DD3C672">
 <createdBy>Windows 10 Pro</createdBy>
-<createdTime>2025-03-30 07:35:57 UTC</createdTime>
-<generatorID>12884D44-9C5F-8727-45EF-5287C7218D85</generatorID>
+<createdTime>2025-08-12 01:09:30 UTC</createdTime>
+<generatorID>6D4460CF-68EF-5875-F2D9-BAC673036209</generatorID>
 <ownerDesignName>modeloDB</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -20,30 +20,30 @@
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="RHTIPCON_DESCRIPCION" id="C43429EC-ACEF-300A-B161-B375AA21F091">
+<Column name="RHASICLA" id="383CCD25-5F09-0CB9-AEA5-392AA216EB88">
 <createdBy>Windows 10 Pro</createdBy>
-<createdTime>2025-03-30 07:35:57 UTC</createdTime>
-<generatorID>39614C27-5A06-484E-CF8B-3592C16C8CDE</generatorID>
+<createdTime>2025-08-12 01:09:30 UTC</createdTime>
+<generatorID>A5D13546-C2F9-E11C-11F1-EA6AF9CCAE3C</generatorID>
 <ownerDesignName>modeloDB</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="9BEDE2C8-1F6D-8DD4-4BC9-0D708E47D85C" name="RH_TIPO_CONTRATO_PK">
+<ind_PK_UK id="379A570F-7430-CAF4-C34D-3A483EDB3444" name="RH_ASISTENCIA_CLASIFICACION_PK">
 <createdBy>Windows 10 Pro</createdBy>
-<createdTime>2025-03-30 07:35:57 UTC</createdTime>
-<generatorID>0F781CE2-1A1E-1FA2-6332-EF543C9AD3CF</generatorID>
+<createdTime>2025-08-12 01:09:30 UTC</createdTime>
+<generatorID>1BB7E5D5-EFBE-404B-EBF1-B172AC8677C1</generatorID>
 <ownerDesignName>modeloDB</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D9E9BD79-E122-4727-B001-5D3021FE6E7E"/>
+<colUsage columnID="CDDED43B-3CD6-9D8D-5F9F-96A35DD3C672"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

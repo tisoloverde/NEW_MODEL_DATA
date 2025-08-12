@@ -53,20 +53,6 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="RHCON_CONTRATO" id="DB80EA34-2971-8F8D-0AE8-7613AE968003">
-<createdBy>Windows 10 Pro</createdBy>
-<createdTime>2025-07-23 06:31:26 UTC</createdTime>
-<ownerDesignName>modeloDB</ownerDesignName>
-<engineerTo>
-<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT026</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="GENCENCOS_ID" id="5B38D463-F4AB-4EF5-7375-A360BD15DB5A">
 <createdBy>Windows 10 Pro</createdBy>
 <createdTime>2025-07-23 06:36:35 UTC</createdTime>
@@ -80,7 +66,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="RHCARLIQ_ID" id="D0EC34D6-5727-8C79-CE6E-8DB063C5A642">
 <createdBy>Windows 10 Pro</createdBy>
@@ -95,9 +81,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="RHTIPFIN_ID" id="C964CFD0-38E9-C963-1911-7040D7202BEE">
+<Attribute name="RHCAUTERCON_ID" id="C964CFD0-38E9-C963-1911-7040D7202BEE">
 <createdBy>Windows 10 Pro</createdBy>
 <createdTime>2025-07-23 06:53:58 UTC</createdTime>
 <generatorID>732E079E-25BE-48D4-63D4-A07974FAF890</generatorID>
@@ -110,6 +96,157 @@
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RHCOL_ID" id="C185FBB4-F694-E9E7-3301-4FDC382D1030">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-05 06:15:23 UTC</createdTime>
+<generatorID>01F67D49-C128-D16F-2DC9-AD316C08247F</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<referedAttribute>D13895FA-A952-7BC9-DD5E-47D613E725AB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RHCARGEN_ID" id="88226AAD-E1D3-A37C-713D-29BCEC9FBE9B">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-05 06:21:04 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RHREF1_ID" id="28ACF95A-AD67-C9D1-21CE-DB13C347DC89">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-05 06:22:35 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RHREF2_ID" id="C9185334-91B0-DA30-7FE9-46F06A00FC7D">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-05 06:22:50 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RHCON_FECHA_CREACION" id="58129670-0F16-8E47-90F2-E300079652A0">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-05 06:26:14 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RHCON_FECHA_MODIFICACION" id="356E0CCF-1150-06BA-4B82-26EBD9C0BA49">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-05 06:26:43 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RHCON_SUELDO_BASE" id="F7AFB9A2-F227-5819-872B-3512A2EBD957">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-05 06:27:11 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RHCON_NOMBRE" id="A1752088-05AF-4A35-7BA0-E6DF7EF95886">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-05 06:28:19 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RHCON_CONTRATO_NUMERO" id="C1ABCABD-4C5F-BAB7-1E79-1C5B16B9A82A">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-05 06:30:08 UTC</createdTime>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RHTIPCON_ID" id="82DAD72F-DF7E-865D-D5DF-C6B76C59AB97">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-05 06:33:56 UTC</createdTime>
+<generatorID>C03D3EF4-0861-576F-66B3-4ED62CA16AC0</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<referedAttribute>EEBDDF4D-C338-D82B-7F58-230CBCCD9A71</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RHESTCON_ID" id="C8E3BC12-0332-DD7A-7E1A-4F76830C4238">
+<createdBy>Windows 10 Pro</createdBy>
+<createdTime>2025-08-05 06:34:01 UTC</createdTime>
+<generatorID>8F6F9938-58DB-E7A2-00ED-EE21F78AA396</generatorID>
+<ownerDesignName>modeloDB</ownerDesignName>
+<engineerTo>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+</engineerTo>
+<referedAttribute>4B81E1EC-BBFA-71D5-283D-EDEC09030917</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -118,8 +255,9 @@
 <createdBy>Windows 10 Pro</createdBy>
 <createdTime>2025-07-23 06:25:01 UTC</createdTime>
 <ownerDesignName>modeloDB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="true"/>
+<item key="C06F9865-25C8-B31D-BF50-14EAAB451EEC" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
